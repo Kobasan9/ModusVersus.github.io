@@ -1,0 +1,106 @@
+@import url("../css/bootstrap-reboot.css");
+@import url("../css/bootstrap-grid.css");
+@import url("../fonts/OpenSans/stylesheet.css");
+@import url(../css/editfontawesome.css);
+.header_top {
+  background: url("../image/Path.png") bottom repeat-x;
+  background-color: #76c7c0; }
+  .header_top .logo_slog_1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0px;
+    display: inline-block; }
+  .header_top .logo_slog_2 {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; }
+  .header_top .main_nav .menu {
+    display: flex;
+    margin: 0; }
+    .header_top .main_nav .menu .top_menu_img {
+      display: none;
+      height: 10px;
+      width: 10px;
+      background: url("../image/bg_arrow.png") no-repeat;
+      background-size: 100%;
+      position: relative;
+      top: 31px;
+      right: 95px; }
+    .header_top .main_nav .menu .portfo1 {
+      margin-left: 44px; }
+    .header_top .main_nav .menu .portfo1:hover {
+      margin-right: 29.6px;
+      background-color: #e5655d;
+      border-bottom: 3px solid #e2534b;
+      border-radius: 4px;
+      padding-left: 10px;
+      margin-right: 27px;
+      margin-left: 26px; }
+    .header_top .main_nav .menu .portfo1 i.fa-chevron-down {
+      display: none; }
+    .header_top .main_nav .menu .portfo1:hover i.fa-chevron-down {
+      display: inline-block;
+      font-size: 12px;
+      position: relative;
+      right: 4px;
+      padding-top: 10px; }
+    .header_top .main_nav .menu .menu_item {
+      display: inline-block;
+      margin-right: 44px;
+      min-height: 31px; }
+      .header_top .main_nav .menu .menu_item ul {
+        margin: 0;
+        margin-left: -10px;
+        padding: 0;
+        position: absolute;
+        border-radius: 6px;
+        margin-top: 20px;
+        display: none;
+        background-color: #e2534b; }
+        .header_top .main_nav .menu .menu_item ul li {
+          position: relative;
+          list-style: none;
+          margin: 5px;
+          background-color: #e5655d;
+          border-radius: 2px; }
+          .header_top .main_nav .menu .menu_item ul li:hover {
+            background-color: #76c7c0; }
+          .header_top .main_nav .menu .menu_item ul li a {
+            font-family: 'Open Sans',sans-serif;
+            font-size: 13px;
+            color: #fff;
+            display: block;
+            padding: 6px 17px 6px 25px;
+            font-weight: normal;
+            text-decoration: none; }
+            .header_top .main_nav .menu .menu_item ul li a i.fas {
+              position: absolute;
+              right: 14%;
+              left: 6%;
+              top: 34%; }
+      .header_top .main_nav .menu .menu_item:hover ul {
+        display: block; }
+      .header_top .main_nav .menu .menu_item:hover .top_menu_img {
+        display: inline-block; }
+      .header_top .main_nav .menu .menu_item:first-child .menu_link {
+        padding: 10px 15px;
+        background-color: #6e978e;
+        border-radius: 6px;
+        border-bottom: 3px solid #608278; }
+      .header_top .main_nav .menu .menu_item:first-child:last-child {
+        margin-right: 0; }
+      .header_top .main_nav .menu .menu_item .menu_item:hover .top_menu_img {
+        display: inline-block; }
+      .header_top .main_nav .menu .menu_item .menu_link {
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-bottom: 25px; }
+
+#servis {
+  margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */

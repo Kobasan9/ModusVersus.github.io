@@ -1,0 +1,5 @@
+@mixin OpenSans($sz:14px,$color:#fff){
+  font-family: 'Open Sans',sans-serif;
+  font-size: $sz;
+  color:$color;
+}
